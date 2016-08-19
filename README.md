@@ -14,9 +14,9 @@ $ phonegap plugin add https://github.com/smokiespartakus/Task-Description-Color-
 ```
 
 ## Usage
-After deviceready, run this:
+After deviceready, run this:[TASKCOLOR,STATUSCOLOR,CALLBACK_SUCCESS{optional},CALLBACK_ERROR{optional}]
 ```
-window.plugins.TaskDescriptionColor.setColor('#FF00FF', function(x) {
+window.plugins.TaskDescriptionColor.setColor('#FF00FF','#FF00FF', function(x) {
 // success
     alert('success: ' + x);
 }, function(x) {
