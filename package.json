@@ -1,0 +1,30 @@
+{
+  "name": "cordova-task-status-barcolor",
+  "version": "1.0.3",
+  "description": "Task Description Color",
+  "cordova": {
+    "id": "cordova-task-status-barcolor",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victor167/cordova-task-status-barcolor.git"
+  },
+  "keywords": [
+    "cordova",
+    "cordova-android"
+  ],
+  "scripts": {},
+  "author": "VR",
+  "license": "MIT",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {}
+}
